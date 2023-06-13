@@ -1,6 +1,6 @@
 {
   "name": "@jeremyr/design-ops-library",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React component library with components generated and/or composed with Figmagic. Made for The newline Guide to React Component Design Systems with Figmagic.",
   "keywords": [
     "acmecorp",
@@ -21,7 +21,7 @@
     "figmagic": "npx figmagic",
     "start": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook"
   },
   "resolutions": {
     "react": "17"

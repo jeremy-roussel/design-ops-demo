@@ -1,0 +1,23 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import ProductDescription from './ProductDescription';
+
+import ProductDescriptionDescription from './ProductDescription.description.md';
+
+<Meta
+  title="ProductDescription"
+  component={ProductDescription}
+  argTypes={{ }}
+/>
+
+<ProductDescriptionDescription />
+
+<Canvas>
+  <Story name="ProductDescription" height="400px">
+    {(args) => <ProductDescription {...args} />}
+  </Story>
+</Canvas>
+
+## ArgsTable
+
+<ArgsTable of={ProductDescription} />

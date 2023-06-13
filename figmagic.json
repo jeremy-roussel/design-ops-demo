@@ -21,8 +21,8 @@
     "css": true,
     "description": true,
     "graphic": true,
-    "react": false,
-    "storybook": false,
+    "react": true,
+    "storybook": true,
     "styled": false
   },
   "skipFileGeneration": {
